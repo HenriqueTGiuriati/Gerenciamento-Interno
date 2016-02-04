@@ -12,7 +12,7 @@
 
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-		<title>Gerenciamentos Interno</title>
+		<title>Gerenciamento Interno</title>
 	</head>
 
 <body class="hold-transition skin-green fixed sidebar-mini">
