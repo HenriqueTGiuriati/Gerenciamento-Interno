@@ -23,6 +23,18 @@ class Rh extends CI_Controller {
 		$data['content'] = 'rh/avaliacao_2';
 		$this->load->view('includes/base', $data);
 	}
+
+	public function gerenciar_membro()
+	{
+		$data['content'] = 'rh/gerenciar_membro';
+		$this->load->view('includes/base', $data);
+	}
+
+	public function cadastrar_membro()
+	{
+		$data['content'] = 'rh/cadastrar_membro';
+		$this->load->view('includes/base', $data);
+	}
 	
 }
 

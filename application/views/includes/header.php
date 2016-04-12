@@ -40,7 +40,7 @@
           <ul class="nav navbar-nav">
             <li><a href="#"><i class="fa fa-calendar-minus-o"> </i> Avaliação mensal</a></li>
             <li><a href="#"><i class="fa fa-users"> </i> Criar reunião</a></li>
-            <li><a href="#"><i class="fa fa-folder-open"> </i> Gerenciar membros</a></li>
+            <li><a href="<?= $this->config->base_url('index.php/rh/gerenciar_membro') ?>"><i class="fa fa-folder-open"> </i> Gerenciar membros</a></li>
             <li><a href="#"><i class="fa fa-line-chart"> </i> Relatórios</a></li>
           </ul>
 
