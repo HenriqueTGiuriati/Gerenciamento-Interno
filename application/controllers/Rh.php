@@ -29,6 +29,17 @@ class Rh extends CI_Controller {
 		$data['content'] = 'rh/chamada';
 		$this->load->view('includes/base', $data);
 	}
+
+	public function gerenciar_membro()
+	{
+		$data['content'] = 'rh/gerenciar_membro';
+		$this->load->view('includes/base', $data);
+	}
+
+	public function cadastrar_membro()
+	{
+		$data['content'] = 'rh/cadastrar_membro';
+	}
 	
 }
 
