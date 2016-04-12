@@ -23,6 +23,11 @@ class Rh extends CI_Controller {
 		$data['content'] = 'rh/avaliacao_2';
 		$this->load->view('includes/base', $data);
 	}
+	public function chamada()
+	{
+		$data['content'] = 'rh/chamada';
+		$this->load->view('includes/base', $data);
+	}
 	
 }
 
