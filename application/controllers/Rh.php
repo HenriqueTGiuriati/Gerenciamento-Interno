@@ -40,6 +40,12 @@ class Rh extends CI_Controller {
 	{
 		$data['content'] = 'rh/cadastrar_membro';
 	}
+
+	public function criar_reuniao()
+	{
+		$data['content'] = 'rh/criar_reuniao';
+		$this->load->view('includes/base', $data);
+	}
 	
 }
 
