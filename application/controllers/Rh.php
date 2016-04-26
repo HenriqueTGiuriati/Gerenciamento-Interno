@@ -39,6 +39,7 @@ class Rh extends CI_Controller {
 	public function cadastrar_membro()
 	{
 		$data['content'] = 'rh/cadastrar_membro';
+		$this->load->view('includes/base', $data);
 	}
 
 	public function criar_reuniao()
@@ -51,6 +52,7 @@ class Rh extends CI_Controller {
 		$data['content'] = 'horario_fixo';
 		$this->load->view('includes/base', $data);
 	}
+
 	
 }
 
