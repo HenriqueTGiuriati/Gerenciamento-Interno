@@ -17,4 +17,13 @@
     <script src="<?= $this->config->base_url('assets/js/app.min.js') ?>"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="<?= $this->config->base_url('assets/js/demo.js') ?>"></script>
+
+    <script src="<?= $this->config->base_url('assets/plugins/datepicker/bootstrap-datepicker.js') ?>"></script>
+
+     <script>
+        $(function() {
+            $( "#datepicker" ).datepicker();
+          });
+      </script>
+
 </body>

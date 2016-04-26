@@ -46,6 +46,11 @@ class Rh extends CI_Controller {
 		$data['content'] = 'rh/criar_reuniao';
 		$this->load->view('includes/base', $data);
 	}
+
+	public function horario_fixo(){
+		$data['content'] = 'horario_fixo';
+		$this->load->view('includes/base', $data);
+	}
 	
 }
 

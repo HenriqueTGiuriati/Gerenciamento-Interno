@@ -1,6 +1,6 @@
 
 <div class="col-md-4"> 
-<div class="box box-primary">
+<div class="box box-success">
             <div class="box-header">
            
               <h3 class="box-title">Criar Reunião</h3>
@@ -46,7 +46,7 @@
                   <div class="input-group-addon">
                     <i class="fa fa-clock-o"></i>
                   </div>
-                  <input type="text" class="form-control pull-right" id="reservationtime">
+                  <input type="text" class="form-control pull-right" id="datepicker">
                 </div>
                 <!-- /.input group -->
               </div>
@@ -70,4 +70,13 @@
             </div>
             <!-- /.box-body -->
           </div>
+
     </div>
+
+
+ <script>
+        $(function() {
+            $( "#datepicker" ).datepicker();
+          });
+      </script>
+
