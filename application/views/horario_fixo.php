@@ -1,6 +1,13 @@
 <div class="box">
-            <div class="box-header with-border">
-              <h3 class="box-title">Horário Fixo</h3>
+
+
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">Projetos Internos</h3>
+            </div>
+            
+
+            
             </div>
             <!-- /.box-header -->
             <div class="box-body">

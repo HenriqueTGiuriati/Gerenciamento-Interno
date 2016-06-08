@@ -1,9 +1,8 @@
-
-<div class="col-md-4"> 
-<div class="box box-success">
-            <div class="box-header">
-           
-              <h3 class="box-title">Criar Reunião</h3>
+<div class="row">
+    <div class="col-sm-offset-2 col-md-8">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">Projetos Internos</h3>
             </div>
             <div class="box-body">
               <!-- Date -->
@@ -53,18 +52,8 @@
               <!-- /.form group -->
 
               <!-- Date and time range -->
-              <div class="form-group">
-                <label>Selecione a data limite:</label>
-
-                <div class="input-group">
-                  <button type="button" class="btn btn-default pull-right" id="daterange-btn">
-                    <span>
-                      <i class="fa fa-calendar"></i> Escolha a data limite
-                    </span>
-                    <i class="fa fa-caret-down"></i>
-                  </button>
-                </div>
-              </div>
+              
+              <a class="btn btn-success">Salvar</a>
               <!-- /.form group -->
 
             </div>

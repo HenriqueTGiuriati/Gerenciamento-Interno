@@ -6,7 +6,7 @@ class Rh extends CI_Controller {
 	
 	public function index()
 	{
-		$data['content'] = 'rh/avaliacao_home';
+		$data['content'] = 'rh/home';
 		
 		$this->load->view('includes/base', $data);
 	}
