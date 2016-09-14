@@ -48,6 +48,15 @@ class Rh extends CI_Controller {
 		$this->load->view('includes/base', $data);
 	}
 
+	public function salvar_reuniao(){
+		$data = $this->input->post();
+		
+		
+		echo json_encode(
+			array('status' => "NOK")
+		);
+	}
+
 	public function horario_fixo(){
 		$data['content'] = 'horario_fixo';
 		$this->load->view('includes/base', $data);

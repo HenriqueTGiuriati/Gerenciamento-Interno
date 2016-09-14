@@ -17,7 +17,7 @@
                     
                     
                   </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
+                  <input type="text" class="form-control pull-right" id="diretoria">
                 </div>
                 <!-- /.input group -->
               </div>
@@ -31,7 +31,7 @@
                   <div class="input-group-addon">
                     <i class="fa fa-calendar"></i>
                   </div>
-                  <input type="text" class="form-control pull-right" id="reservation">
+                  <input type="text" class="form-control pull-right" id="data">
                 </div>
                 <!-- /.input group -->
               </div>
@@ -45,7 +45,7 @@
                   <div class="input-group-addon">
                     <i class="fa fa-clock-o"></i>
                   </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
+                  <input type="text" class="form-control pull-right" id="horario">
                 </div>
                 <!-- /.input group -->
               </div>
@@ -53,7 +53,7 @@
 
               <!-- Date and time range -->
               
-              <a class="btn btn-success">Salvar</a>
+              <a class="btn btn-success" onclick="salvar();">Salvar</a>
               <!-- /.form group -->
 
             </div>
@@ -61,11 +61,37 @@
           </div>
 
     </div>
-
+<script src="<?= $this->config->base_url('assets/plugins/jQuery/jQuery-2.1.4.min.js') ?>"></script>
 
  <script>
         $(function() {
             $( "#datepicker" ).datepicker();
           });
-      </script>
+  </script> 
+
+  <script>
+  function salvar() {
+
+        jQuery.ajax({
+            url: "http://localhost/Gerenciamento-Interno/index.php/rh/salvar_reuniao",
+            type: "post",
+            dataType: 'json',
+            data: {
+                    diretoria: $('#diretoria').val(),
+                    data: $('#data').val(),
+                    horario: $('#horario').val()
+                },
+            success: function (response) {
+              if (response.status == 'OK') {
+                  alert("Deu erro");
+              }
+                    
+              else {
+                    alert("deu certo");
+              }
+              
+            }
+        });
+}
+  </script>
 

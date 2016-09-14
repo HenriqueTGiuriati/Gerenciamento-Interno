@@ -448,3 +448,4 @@
   </div>
 </div>
 
+<script src="<?= $this->config->base_url('assets/plugins/jQuery/jQuery-2.1.4.min.js') ?>"></script>
