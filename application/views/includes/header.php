@@ -9,10 +9,12 @@
 		 <link rel="stylesheet" href="<?= $this->config->base_url('assets/css/bootstrap.min.css') ?>" />
 		 <link rel="stylesheet" href="<?= $this->config->base_url('assets/css/AdminLTE.min.css') ?>" />
 		 <link rel="stylesheet" href="<?= $this->config->base_url('assets/css/skins/_all-skins.min.css') ?>" />
+     <link rel="stylesheet" href="<?= $this->config->base_url('assets/plugins/datepicker/datepicker3.css') ?>" />
 
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
-		<title>Gerenciamentos Interno</title>
+		<title>Gerenciamento Interno</title>
 	</head>
 
 <body class="hold-transition skin-green fixed sidebar-mini">
@@ -23,9 +25,9 @@
         <!-- Logo -->
         <a href="../../index2.html" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>A</b>LT</span>
+          <span class="logo-mini"><b>G.</b>Int</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>Admin</b>LTE</span>
+          <span class="logo-lg"><b>Gerenciamento</b>Interno</span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
@@ -36,6 +38,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
+
+          <ul class="nav navbar-nav">
+          <li><a href="<?= $this->config->base_url('index.php/home/homepage') ?>"><i class="fa fa-home"> </i> Home</a></li>
+            <li><a href="<?= $this->config->base_url('index.php/rh/') ?>"><i class="fa fa-users"> </i> RH</a></li>
+            <li><a href="<?= $this->config->base_url('index.php/rh/avaliacao_usuario') ?>"><i class="fa fa-calendar-minus-o"> </i> Avaliação mensal</a></li>
+            <li><a href="<?= $this->config->base_url('index.php/rh/criar_reuniao') ?>"><i class="fa fa-users"> </i> Criar reunião</a></li>
+            <li><a href="<?= $this->config->base_url('index.php/rh/chamada') ?>"><i class="fa fa-list"> </i> Chamada</a></li>
+            <li><a href="<?= $this->config->base_url('index.php/rh/horario_fixo') ?>"><i class="fa fa-clock-o"> </i> Horario fixo</a></li>
+          </ul>
 
           <div class="navbar-custom-menu">
 
