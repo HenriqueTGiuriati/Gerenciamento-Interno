@@ -17,7 +17,7 @@
                  <td>1.Assiduidade em reuniões e horário fixo</td>
                  <td>   <div class="checkbox">
                 <label> 
-                <input type="checkbox" value=""></label>                  
+                <input type="checkbox" value="" id="id_assiduidade_muito_bom"></label>                  
                  </div>
                  </td>
                  

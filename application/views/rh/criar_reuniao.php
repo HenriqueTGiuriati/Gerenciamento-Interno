@@ -79,7 +79,8 @@
             data: {
                     diretoria: $('#diretoria').val(),
                     data: $('#data').val(),
-                    horario: $('#horario').val()
+                    horario: $('#horario').val(),
+                    checkbox: $('#checkbox').isChecked(),
                 },
             success: function (response) {
               if (response.status == 'OK') {
